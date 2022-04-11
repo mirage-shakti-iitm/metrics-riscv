@@ -1,3 +1,4 @@
 (library
  (public_name metrics)
- (libraries   fmt))
+ (libraries   fmt)
+ (ocamlopt_flags (-default-compartment-id 1 -function-sections)))
